@@ -23,7 +23,7 @@
         justify-items: center;
         justify-self: right;
         background: none;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .nav_btn div{
@@ -138,5 +138,7 @@
     .socials{
         margin: 0 auto;
         justify-self: center;
+        width: 100%;
+        justify-content: center;
     }
 }
