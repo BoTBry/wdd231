@@ -135,6 +135,10 @@
         display: block;
     }
 
+    .pfp{
+        justify-self: center;
+    }
+
     .socials{
         margin: 0 auto;
         justify-self: center;
