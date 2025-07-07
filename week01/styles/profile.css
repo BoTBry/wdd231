@@ -96,19 +96,19 @@
         justify-self: center;
         justify-items: center;
         justify-content: center;
-        padding: 0 var(--left-padding);
+        padding: 0;
         row-gap: var(--top-bottom-padding);
     }
 
     #main_grid section:nth-child(1){
         max-width: 660px;
-        width: 100%;
+        width: 98%;
     }
 
     #main_grid section:nth-child(2){
         justify-self: center;
         max-width: 660px;
-        width: 100%;
+        width: 98%;
     }
 
     .courses{
@@ -137,6 +137,7 @@
 
     .pfp{
         justify-self: center;
+        margin: 0 auto;
     }
 
     .socials{
