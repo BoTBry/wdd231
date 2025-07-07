@@ -91,11 +91,12 @@
     #main_grid{
         display: grid;
         grid-template: 1fr 1fr /  1fr;
-        width: 95%;
+        width: 100%;
         justify-self: center;
         justify-items: center;
-        row-gap: var(--top-bottom-padding);
+        justify-content: center;
         padding: 0;
+        row-gap: var(--top-bottom-padding);
     }
 
     #main_grid section:nth-child(1){
@@ -131,5 +132,10 @@
     .navigation li a{
         /* width: 100%; */
         display: block;
+    }
+
+    .socials{
+        margin: 0 auto;
+        justify-self: center;
     }
 }
