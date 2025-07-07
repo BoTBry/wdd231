@@ -91,22 +91,25 @@
 
     #main_grid{
         display: grid;
-        grid-template: 1fr 1fr /  1fr;
+        grid-template: 1fr auto /  1fr;
         max-width: 100%;
         justify-self: center;
         justify-items: center;
         justify-content: center;
         padding: 0;
         row-gap: var(--top-bottom-padding);
+        height: fit-content;
     }
 
     #main_grid section:nth-child(1){
         max-width: 660px;
+        justify-self: center;
         width: 98%;
     }
 
     #main_grid section:nth-child(2){
         justify-self: center;
+        height: fit-content;
         max-width: 660px;
         width: 98%;
     }
