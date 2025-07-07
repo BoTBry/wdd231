@@ -22,6 +22,7 @@
         cursor: pointer;
         justify-items: center;
         background: none;
+        margin-right: 10px;
     }
 
     .nav_btn div{
