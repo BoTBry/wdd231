@@ -193,7 +193,10 @@ main{
 .socials{
     display: flex;
     column-gap: var(--left-padding);
+    margin: 0 auto;
     justify-self: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .socials img{
