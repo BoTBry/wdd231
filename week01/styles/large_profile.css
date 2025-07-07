@@ -1,0 +1,215 @@
+:root{
+    --lands-width: 44px;
+    --lands-height: 44px;
+    --header-footer-clr: #0963ff;
+    --sub-br-clr: #F5F5DC;
+    --left-padding: .5rem;
+    --top-bottom-padding: 10px;
+}
+/****************Header Section***********************/
+
+h1, h2, h3{
+    font-family: 'Montserrat','Roboto', 'Open Sans';
+}
+
+p{
+    font-family: 'Courier New', 'Open Sans', sans-serif, verdana;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 44px auto ;
+    column-gap: 10px;
+    background-color: var(--header-footer-clr);
+    padding: var(--top-bottom-padding) 0 var(--top-bottom-padding) var(--left-padding);
+    align-items: center;
+}
+
+header span{
+    color: #191933;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Roboto', 'Open Sans', sans-serif, verdana;
+}
+
+.logo img{
+    display: block;
+    width: var(--lands-width);
+    height: var(--lands-height);
+    align-self: center;
+}
+
+/****************Navigation***********************/
+
+.current{
+    background-color: #ddd;
+}
+
+.nav_btn{
+    display: none;
+}
+
+nav{
+    background-color: var(--sub-br-clr);
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    padding: var(--top-bottom-padding) 0;
+    margin: 0;
+}
+
+.navigation a{
+    padding: var(--top-bottom-padding) var(--left-padding);
+    font-family: 'Roboto', 'Open Sans', verdana;
+    text-decoration: none;
+    color: #191933;
+}
+
+.navigation a:hover{
+    background-color: #ddd;
+}
+
+/****************Main***********************/
+
+main{
+    width: 100%;
+}
+
+#main_grid{
+    display: grid;
+    grid-template-columns: minmax(300px, 900px) minmax(100px, 400px);
+    justify-self: left;
+    width: 98%;
+    padding-left: var(--left-padding);
+
+}
+
+#main_grid section{
+    background-color: var(--sub-br-clr);
+    overflow: hidden;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+#main_grid section h2{
+    width: 100%;
+    text-align: center;
+    background-color: var(--header-footer-clr);
+    margin: 0;
+    color: #191933;
+    padding: 5px 0;
+}
+
+#main_grid section:nth-child(1){
+    width: 90%;
+    max-width: 900px;
+    height: 100%;
+    text-align: left;
+}
+
+#main_grid section:nth-child(1) p{
+    line-height: 1.5rem;
+    padding: 0 var(--left-padding);
+}
+
+#main_grid section:nth-child(2){
+    width: 100%;
+    justify-self: right;
+}
+
+.pfp{
+    width: 200px;
+    display: block;
+    height: auto;
+    padding: var(--top-bottom-padding) 0;
+    border-radius: 10px;
+}
+
+.home{
+    padding: var(--top-bottom-padding) var(--left-padding);
+    color: #191933;
+    margin: 0;
+}
+
+.sub_header{
+    width: 100%;
+    background-color: var(--header-footer-clr);
+    text-align: center;
+}
+
+.sub_header h3{
+    color: #191933;
+    padding: var(--top-bottom-padding) ;
+}
+
+.course_header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 var(--left-padding);
+    font-family: 'Roboto', 'Open Sans', sans-serif, verdana;
+    column-gap: var(--left-padding);
+}
+
+.course_header button{
+    border: solid #706f6f 1px;
+    cursor: pointer;
+    padding: var(--top-bottom-padding);
+    border-radius: 5px;
+}
+
+.course_header button:hover{
+    background: #ddd;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: var(--top-bottom-padding) var(--left-padding);
+    font-family: 'Roboto', 'Open Sans', sans-serif, verdana;
+    column-gap: var(--left-padding);
+}
+
+.courses span{
+    background-color: var(--sub-br-clr);
+    text-align: center;
+    border: solid #706f6f 1px;
+    border-radius: 2px;
+    padding: 5px 0;
+}
+
+.credits{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-family: monospace, 'Open Sans', sans-serif, verdana;
+    padding-bottom: var(--top-bottom-padding);
+}
+
+
+/****************Footer***********************/
+
+.socials{
+    display: flex;
+    column-gap: var(--left-padding);
+    justify-self: center;
+}
+
+.socials img{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    align-self: center;
+    display: block;
+}
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.f_txt{
+    background-color: var(--header-footer-clr);
+}

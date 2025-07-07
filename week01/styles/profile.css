@@ -1,0 +1,138 @@
+:root{
+    --lands-width: 44px;
+    --lands-height: 44px;
+    --header-footer-clr: #0963ff;
+    --sub-br-clr: #F5F5DC;
+    --left-padding: .5rem;
+    --top-bottom-padding: 10px;
+}
+
+@media screen and (max-width: 660px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        grid-template-columns: 44px auto 54px;
+    }
+
+    .nav_btn{
+        display: block;
+        width: 44px;
+        height: 33px;
+        padding: 19px;
+        border: none;
+        cursor: pointer;
+        justify-items: center;
+        background: none;
+    }
+
+    .nav_btn div{
+        width: 33px;
+        height: .25rem;
+        background-color: #191933;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .ham_btn{
+        transform: translateY(-10px);
+
+    }
+    .ham_btn2{
+        transform: translateY(-5px);
+
+    }
+
+    .show{
+        animation-name: show1;
+        animation-timing-function: ease;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+    }    
+    @keyframes show1 {
+        0%{
+
+        }
+        100%{
+            transform: rotateZ(135deg) translateX(-0.5px) translateY(2px);
+        }
+    }
+
+    .show2{
+        animation-name: show2;
+        animation-timing-function: ease;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+    }    
+    @keyframes show2{
+        0%{
+
+        }
+        100%{
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    .show3{
+        animation-name: show3;
+        animation-timing-function: ease;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+    }    
+    @keyframes show3 {
+        0%{
+
+        }
+        100%{
+            transform: rotateZ(40deg) translateX(-7px) translateY(-7px);
+        }
+    }
+
+    #main_grid{
+        display: grid;
+        grid-template: 1fr 1fr /  1fr;
+        width: 95%;
+        justify-self: center;
+        justify-items: center;
+        row-gap: var(--top-bottom-padding);
+        padding: 0;
+    }
+
+    #main_grid section:nth-child(1){
+        max-width: 660px;
+        width: 100%;
+    }
+
+    #main_grid section:nth-child(2){
+        justify-self: center;
+        max-width: 660px;
+        width: 100%;
+    }
+
+    .courses{
+        grid-template: repeat(3, 1fr) / 1fr;
+        row-gap: var(--top-bottom-padding);
+        column-gap: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .show_nav{
+        display: block;
+    }
+
+    .navigation{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navigation li a{
+        /* width: 100%; */
+        display: block;
+    }
+}
