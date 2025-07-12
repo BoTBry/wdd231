@@ -1,0 +1,28 @@
+{
+    "family_name" : "Chigbu",
+    "move_in_date" : "1-1-2025",
+    "number_of_record" : 4,
+    "visited_bishopric" : true,
+    "family_member_record" : [
+        {
+            "name" : "Tobechi Chigbu",
+            "age" : 57,
+            "gender" : "male"
+        },
+        {
+            "name" : "Joy Chigbu",
+            "age" : 52,
+            "gender" : "female"
+        },
+        {
+            "name" : "Chidimma Chigbu",
+            "age" : 23,
+            "gender" : "female"
+        },
+        {
+            "name" : "Chiemela Chigbu",
+            "age" : 21,
+            "gender" : "male"
+        }     
+    ]
+}
