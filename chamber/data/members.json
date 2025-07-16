@@ -1,0 +1,34 @@
+{
+    "companies" : [
+        {
+            "names": "Chinedu Okafor",
+            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "phone_numbers": "+234 803 456 7890",
+            "website_URLs": "https://www.okaforgroup.com",
+            "image": "./images/Baker-standing-in-bakery-600x600.webp",
+            "membership_level": "member",
+            "email": "chinedu.okafor@example.com"
+
+        },
+        {
+            "names": "Ngozi Nwankwo",
+            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "phone_numbers": "+234 802 123 4567",
+            "website_URLs": "https://www.ngozinwankwoconsults.ng",
+            "image": "./images/mechanic-uniform-600nw-1949210038.webp",
+            "membership_level": "silver",
+            "email": "ngozi.nwankwo@example.com"
+
+        },
+        {
+            "names": "Ifeanyi Eze",
+            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "phone_numbers": "+234 909 876 5432",
+            "website_URLs": "https://www.ezetech.com.ng",
+            "image": "./images/sales_man.webp",
+            "membership_level": "gold",
+            "email": "ifeanyi.eze@example.com"
+
+        }
+    ]
+}
