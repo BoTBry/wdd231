@@ -23,31 +23,37 @@
     <meta name="twitter:image" content="https://raw.githubusercontent.com/BoTBry/wdd231/refs/heads/main/chamber/images/nigeriaHero-1550x804.webp">
 
     <!-- Linked files and fonts-->
-     <link rel="stylesheet" href="styles/normalize.css">
-     <link rel="stylesheet" href="styles/chamber.css">
-     <link rel="stylesheet" href="styles/mobile_chamber.css">
-     <link rel="icon" type="image/ico" href="">
-     <script src="scripts/chamber.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/mobile_chamber.css">
+    <link rel="icon" type="image/ico" href="images/briefcase-fill.svg">
+    <script src="scripts/chamber.js" defer></script>
 
     <title>Chamber Directory</title>
 </head>
-<body>
+<body class="light_background">
     
     <header>
-        <img src="" alt="website logo">
+        <img class="logo" src="images/briefcase-fill.svg" alt="website logo">
         <h2>Onitash Chamber of Commerce</h2>
 
         <nav>
 
             <ul class="navigation">
-                <li><a class="current" href="">Home</a></li>
+                <li><a class="current" href="#">Home</a></li>
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
-                <li><a href="">Discover</a></li>
-                <li><a href=""></a><img src="" alt=""></li>
+                <li><a href= "">Discover</a></li>
             </ul>
 
         </nav>
+
+        <a class="mode"><img class="light_mode" src="images/brightness-low-fill.svg" alt=""><img class="dark_mode" src="images/moon-stars-fill.svg" alt=""></a>
+
+        <button id="menu"></button>
 
     </header>
 
@@ -56,7 +62,7 @@
         <div id="container">
             <picture>
                 <!-- For viewports 700px and below -->
-                <source srcset="images/WEBSITE-FLYER.webp" media="(max-width: 700px)">
+                <source srcset="images/WEBSITE-FLYER.webp" media="(max-width: 830px)">
                 
                 <!-- For viewports 701px and above -->
                 <!-- <source srcset="images/nigeriaHero-1550x804.webp" media="(min-width: 701px)"> -->
@@ -64,7 +70,7 @@
                 <!-- Fallback image (if none of the above match) -->
                 <img id="hero_img" src="images/nigeriaHero-1550x804.webp" alt="Image of Nigeria">
             </picture>
-            <button id="join_button">Register</button>
+            <a id="join_button" href="">Register</a>
         </div>
 
         <h1>Home</h1>
@@ -72,12 +78,67 @@
         <div class="event_grid">
 
             <section class="events">
-                <p> <strong>hi:</strong> <span><a href="#">shhjdshj</a></span></p>
+
+                <h2>🗓️ A Look at Your July Calendar</h2>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Jul 6</td>
+                        <td>Business Hangout</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 11</td>
+                        <td>Mid‑Year Praise</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 12</td>
+                        <td>Entrepreneurship & Tech Conference + Moment of Grace local devotional (morning)</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 13</td>
+                        <td>Officers & NCO Workshop</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 21</td>
+                        <td>(Coming soon) Hosting God 2 – a prayer gathering</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 26–31</td>
+                        <td>DOBA Centenary + Ime Obi Cultural Festival</td>
+                      </tr>
+                    </tbody>
+                </table>
+
             </section>
 
-            <section class="current_weather"></section>
+            <section class="current_weather">
+              <h2>Current Weather</h2>
+                <img src="images/7795628_weather_day_cloud_cloudy_sky_icon.svg" alt="" width="44" height="44">
+                <ul>
+                    <li><strong>29° C</strong></li>
+                    <li>Partly cloudly</li>
+                    <li>High: 29°</li>
+                    <li>Low: 22°</li>
+                    <li>Humidity: 66%</li>
+                    <li>Sunrise: 7:00am</li>
+                    <li>Sunset: 7:30pm</li>
+                </ul>
+            </section>
             
-            <section class="weather_forecast"></section>
+            <section class="weather_forecast">
+              <h2>Weather Forecast</h2>
+              <ul>
+                <li>Today: <strong>30° C</strong></li>
+                <li>Thursday: <strong>29° C</strong></li>
+                <li>Wednesday: <strong>27° C</strong></li>
+              </ul>
+            </section>
 
         </div>
 
@@ -88,9 +149,9 @@
     <footer>
         <div class="left_grid">
             <p><strong>Onitash Chamber of Commerce</strong></p>
-            <p></p>
-            <p></p>
-            <a href="mailto:botbryan2.2@gmail.com">botbryan2.2@gmail.com</a>
+            <p>28 Bida Road, Odoakpu, Onitsha</p>
+            <p>Onitsha, mail 200</p>
+            <p><span><a href="mailto:botbryan2.2@gmail.com">botbryan2.2@gmail.com</a></span></p>
             <p>+2349063141524</p>
         </div>
 
