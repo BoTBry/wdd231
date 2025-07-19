@@ -45,6 +45,23 @@
 }
 
 /**************** Header ***********************/
+h1, h2, h3, h4{
+    font-family: 'Montserrat','Roboto', 'Open Sans';
+}
+
+p{
+    font-family: 'Open Sans', sans-serif, verdana;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif, verdana;
+}
+
+table, .current_weather ul, .weather_forecast ul{
+  font-family: 'Open Sans', sans-serif, verdan;
+  
+}
+
 header{
   display: grid;
   grid-template: 1fr / minmax(44px, 65px) auto 1fr auto;
@@ -206,7 +223,6 @@ h1{
 table {
     border-collapse: collapse;
     width: 95%;
-    font-family: Arial, sans-serif;
   }
 
   th, td {
@@ -237,7 +253,6 @@ table {
 
 .weather_forecast ul li, .current_weather ul li{
   padding-bottom: 10px;
-  font-size: 1.1rem;
 }
 
 .current_weather img{
