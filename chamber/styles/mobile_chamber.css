@@ -19,13 +19,13 @@
 
     .dark_background #menu::before{
         content: "\2630";
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Open Sans', sans-serif, verdana;
         color: #fff;
     }
     .dark_background .close #menu::before{
         content: "\00D7";
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Open Sans', sans-serif, verdana;
         color: #fff;
     }
@@ -56,13 +56,13 @@
         content: "\2630";
         font-family: 'Open Sans', sans-serif, verdana;
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .close #menu::before{
         content: "\00D7";
         font-family: 'Open Sans', sans-serif, verdana;
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     nav{
