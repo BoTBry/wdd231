@@ -17,7 +17,7 @@
 }
 
 .dark_background{
-  background-image: url(../images/IMG_20250516_214408.jpg);
+  background-image: url(../images/IMG_20250516_214408.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -301,7 +301,10 @@ table {
   width: 95%;
   justify-content: center;
   justify-self: center;
+  justify-items: center;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info_section section{
