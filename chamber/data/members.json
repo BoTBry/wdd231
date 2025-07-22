@@ -5,7 +5,7 @@
             "addresses": "12 Oguta Road, Onitsha, Anambra",
             "phone_numbers": "+234 803 456 7890",
             "website_URLs": "https://www.okaforgroup.com",
-            "image": "./images/Baker-standing-in-bakery-600x600.webp",
+            "image": "./images/ai-generated-zeus-logo-design-illustration-vector.webp",
             "membership_level": "member",
             "email": "chinedu.okafor@example.com"
 
@@ -15,7 +15,7 @@
             "addresses": "54 Awka Street, Fegge, Onitsha",
             "phone_numbers": "+234 802 123 4567",
             "website_URLs": "https://www.nkwoconsults.ng",
-            "image": "./images/mechanic-uniform-600nw-1949210038.webp",
+            "image": "./images/business-logo-design-template-78655edda18bc1196ab28760f1535baa_screen.webp",
             "membership_level": "silver",
             "email": "ngozi.nwankwo@example.com"
 
@@ -25,7 +25,67 @@
             "addresses": "101 Zik Avenue, GRA, Onitsha",
             "phone_numbers": "+234 909 876 5432",
             "website_URLs": "https://www.ezetech.com.ng",
-            "image": "./images/sales_man.webp",
+            "image": "./images/cool-funky-santa-claus-logo-christmas-on-december-line-neon-art-portrait-colorful-design-with-dark-background-abstract-illustration-vector.webp",
+            "membership_level": "gold",
+            "email": "ifeanyi.eze@example.com"
+
+        },
+        {
+            "names": "Chinedu Okafor",
+            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "phone_numbers": "+234 803 456 7890",
+            "website_URLs": "https://www.okaforgroup.com",
+            "image": "./images/creative-logo-maker.png.webp",
+            "membership_level": "member",
+            "email": "chinedu.okafor@example.com"
+
+        },
+        {
+            "names": "Ngozi Nwankwo",
+            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "phone_numbers": "+234 802 123 4567",
+            "website_URLs": "https://www.nkwoconsults.ng",
+            "image": "./images/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.webp",
+            "membership_level": "silver",
+            "email": "ngozi.nwankwo@example.com"
+
+        },
+        {
+            "names": "Ifeanyi Eze",
+            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "phone_numbers": "+234 909 876 5432",
+            "website_URLs": "https://www.ezetech.com.ng",
+            "image": "./images/door-company-logo.webp",
+            "membership_level": "gold",
+            "email": "ifeanyi.eze@example.com"
+
+        },
+        {
+            "names": "Chinedu Okafor",
+            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "phone_numbers": "+234 803 456 7890",
+            "website_URLs": "https://www.okaforgroup.com",
+            "image": "./images/eagle-head-simple-logo-design-template-359138889.webp",
+            "membership_level": "member",
+            "email": "chinedu.okafor@example.com"
+
+        },
+        {
+            "names": "Ngozi Nwankwo",
+            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "phone_numbers": "+234 802 123 4567",
+            "website_URLs": "https://www.nkwoconsults.ng",
+            "image": "./images/golden-logo-template-free-png.webp",
+            "membership_level": "silver",
+            "email": "ngozi.nwankwo@example.com"
+
+        },
+        {
+            "names": "Ifeanyi Eze",
+            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "phone_numbers": "+234 909 876 5432",
+            "website_URLs": "https://www.ezetech.com.ng",
+            "image": "./images/images.webp",
             "membership_level": "gold",
             "email": "ifeanyi.eze@example.com"
 

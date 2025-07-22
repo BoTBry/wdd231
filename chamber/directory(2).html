@@ -27,15 +27,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/mobile_chamber.css">
+    <link rel="stylesheet" href="styles/chamber(2).css">
+    <link rel="stylesheet" href="styles/mobile_chamber(2).css">
     <link rel="icon" type="image/ico" href="images/briefcase-fill.svg">
-    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/chamber(2).js" defer></script>
 
     <title>Chamber Directory</title>
 </head>
 <body class="light_background">
-
+    
     <header>
         <img class="logo" src="images/briefcase-fill.svg" alt="website logo">
         <h2>Onitash Chamber of Commerce</h2>
@@ -56,72 +56,94 @@
         <button id="menu"></button>
 
     </header>
-    
+
     <main>
-    	<h1>User Layout View Selection</h1>
-    	<div class="menu">
-    		<button id="grid">Grid</button>
-    		<button id="list">List</button>
-    	</div>
 
-    	<article class="grid">
-    		<!-- <section>
-    			<img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
-    			<h3>Payson Utah</h3>
-    			<p>2015</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
-    		</section>
+        <div id="container">
+            <picture>
+                <!-- For viewports 700px and below -->
+                <source srcset="images/WEBSITE-FLYER.webp" media="(max-width: 830px)">
+                
+                <!-- For viewports 701px and above -->
+                <!-- <source srcset="images/nigeriaHero-1550x804.webp" media="(min-width: 701px)"> -->
+                
+                <!-- Fallback image (if none of the above match) -->
+                <img id="hero_img" src="images/nigeriaHero-1550x804.webp" alt="Image of Nigeria">
+            </picture>
+            <a id="join_button" href="">Register</a>
+        </div>
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/c6/07/c6077e1778bfdf5a91569ab3acf57e9c31a7175f/boise_idaho_temple_sunshine.jpeg" alt="Boise Idaho Temple" />
-    			<h3>Boise Idaho</h3>
-    			<p>1984</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details
-    			</a>
-    		</section>
+        <h1>Home</h1>
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg" alt="Oakland California Temple" />
-    			<h3>Oakland California</h3>
-    			<p>1964</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details </a>
-    		</section>
+        <div class="event_grid">
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg" alt="Seattle Washington Temple" />
-    			<h3>Seattle Washington</h3>
-    			<p>1980</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
-    		</section>
+            <section class="events">
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/2c/77/2c77d5fd39c0646e0122b1a1472f1d538aa3aa7e/portland_oregon_temple.jpeg" alt="Portland Oregon Temple" />
-    			<h3>Portland Oregon</h3>
-    			<p>1989</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng" target="_blank">Details</a>
-    		</section>
+                <h2>🗓️ A Look at Your July Calendar</h2>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Jul 6</td>
+                        <td>Business Hangout</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 11</td>
+                        <td>Mid‑Year Praise</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 12</td>
+                        <td>Entrepreneurship & Tech Conference + Moment of Grace local devotional (morning)</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 13</td>
+                        <td>Officers & NCO Workshop</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 21</td>
+                        <td>(Coming soon) Hosting God 2 – a prayer gathering</td>
+                      </tr>
+                      <tr>
+                        <td>Jul 26–31</td>
+                        <td>DOBA Centenary + Ime Obi Cultural Festival</td>
+                      </tr>
+                    </tbody>
+                </table>
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg" alt="Jordan River Utah" />
-    			<h3>Jordan River Utah</h3>
-    			<p>1981</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng" target="_blank">Details</a>
-    		</section>
+            </section>
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/77/eb/77eb82391ad1795a117b25ee3deaf2a4d229311a/provo_temple_lds.jpg" alt="Portland Oregon Temple" />
-    			<h3>Provo Utah</h3>
-    			<p>1972</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng" target="_blank">Details</a>
-    		</section>
+            <section class="current_weather">
+              <h2>Current Weather</h2>
+                <img src="images/7795628_weather_day_cloud_cloudy_sky_icon.svg" alt="" width="44" height="44">
+                <ul>
+                    <li><strong>29° C</strong></li>
+                    <li>Partly cloudly</li>
+                    <li>High: 29°</li>
+                    <li>Low: 22°</li>
+                    <li>Humidity: 66%</li>
+                    <li>Sunrise: 7:00am</li>
+                    <li>Sunset: 7:30pm</li>
+                </ul>
+            </section>
+            
+            <section class="weather_forecast">
+              <h2>Weather Forecast</h2>
+              <ul>
+                <li>Today: <strong>30° C</strong></li>
+                <li>Thursday: <strong>29° C</strong></li>
+                <li>Wednesday: <strong>27° C</strong></li>
+              </ul>
+            </section>
 
-    		<section>
-    			<img src="https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg" alt="Provo City Center Temple" />
-    			<h3>Provo City Center</h3>
-    			<p>2016</p>
-    			<a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng" target="_blank">Details</a>
-    		</section> -->
-    	</article>
+        </div>
+
+        <div class="info_section"></div>
+
     </main>
 
     <footer>
