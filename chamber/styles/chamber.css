@@ -165,8 +165,8 @@ h1{
 }
 
 main {
-	margin: 10px 10px;
-  width: 92%;
+	margin: 10px auto;
+  width: 95%;
 	max-width: 1800px;
   justify-self: center;
   justify-content: center;
@@ -182,10 +182,16 @@ main {
 
 	button {
 		padding: 0.5rem 1rem;
-		font-weight: 700;
     border: 1px solid #191933;
     border-radius: 5px;
     color: #191933;
+
+    img{
+      display: block;
+      width: 22px;
+      height: 22px;
+      align-self: center;
+    }
 	}
 }
 
