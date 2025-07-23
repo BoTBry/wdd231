@@ -1,93 +1,93 @@
 {
     "companies" : [
         {
-            "names": "Chinedu Okafor",
-            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "names": "Nexora Technologies",
+            "addresses": " 15 Innovation Way, GRA Phase 2, Enugu, Nigeria",
             "phone_numbers": "+234 803 456 7890",
-            "website_URLs": "https://www.okaforgroup.com",
+            "website_URLs": "www.nexoratech.com",
             "image": "./images/ai-generated-zeus-logo-design-illustration-vector.webp",
             "membership_level": "member",
-            "email": "chinedu.okafor@example.com"
+            "email": " info@nexoratech.com"
 
         },
         {
-            "names": "Ngozi Nwankwo",
-            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "names": "Veltrix Logistics",
+            "addresses": "Plot 4, Wharf Crescent, Apapa, Lagos, Nigeria",
             "phone_numbers": "+234 802 123 4567",
-            "website_URLs": "https://www.nkwoconsults.ng",
+            "website_URLs": "www.veltrixlogistics.com",
             "image": "./images/business-logo-design-template-78655edda18bc1196ab28760f1535baa_screen.webp",
             "membership_level": "silver",
-            "email": "ngozi.nwankwo@example.com"
+            "email": "support@veltrixlogistics.com"
 
         },
         {
-            "names": "Ifeanyi Eze",
-            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "names": "GreenPulse Energy",
+            "addresses": "78 Eco Street, Maitama, Abuja, Nigeria",
             "phone_numbers": "+234 909 876 5432",
-            "website_URLs": "https://www.ezetech.com.ng",
+            "website_URLs": " www.greenpulseenergy.ng",
             "image": "./images/cool-funky-santa-claus-logo-christmas-on-december-line-neon-art-portrait-colorful-design-with-dark-background-abstract-illustration-vector.webp",
             "membership_level": "gold",
-            "email": "ifeanyi.eze@example.com"
+            "email": "contact@greenpulseenergy.ng"
 
         },
         {
-            "names": "Chinedu Okafor",
-            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "names": "TruPoint Analytics",
+            "addresses": "6 Data Loop, Central Business District, Abuja",
             "phone_numbers": "+234 803 456 7890",
-            "website_URLs": "https://www.okaforgroup.com",
+            "website_URLs": "www.trupointanalytics.com",
             "image": "./images/creative-logo-maker.png.webp",
             "membership_level": "member",
-            "email": "chinedu.okafor@example.com"
+            "email": "insights@trupointanalytics.com"
 
         },
         {
-            "names": "Ngozi Nwankwo",
-            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "names": "Cloudberry Solutions",
+            "addresses": "22 Byte Lane, Tech Valley, Yaba, Lagos",
             "phone_numbers": "+234 802 123 4567",
-            "website_URLs": "https://www.nkwoconsults.ng",
+            "website_URLs": "www.cloudberrysolutions.com",
             "image": "./images/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.webp",
             "membership_level": "silver",
-            "email": "ngozi.nwankwo@example.com"
+            "email": "hello@cloudberrysolutions.com"
 
         },
         {
-            "names": "Ifeanyi Eze",
-            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "names": "Zentrosoft Systems",
+            "addresses": "10 Silicon Drive, Ikeja, Lagos, Nigeria",
             "phone_numbers": "+234 909 876 5432",
-            "website_URLs": "https://www.ezetech.com.ng",
+            "website_URLs": "www.zentrosoft.com",
             "image": "./images/door-company-logo.webp",
             "membership_level": "gold",
-            "email": "ifeanyi.eze@example.com"
+            "email": "contact@zentrosoft.com"
 
         },
         {
-            "names": "Chinedu Okafor",
-            "addresses": "12 Oguta Road, Onitsha, Anambra",
+            "names": "Aqualine Ventures",
+            "addresses": "35 Ocean Road, Elekahia, Port Harcourt, Rivers",
             "phone_numbers": "+234 803 456 7890",
-            "website_URLs": "https://www.okaforgroup.com",
+            "website_URLs": "www.aqualineventures.com",
             "image": "./images/eagle-head-simple-logo-design-template-359138889.webp",
             "membership_level": "member",
-            "email": "chinedu.okafor@example.com"
+            "email": "info@aqualineventures.com"
 
         },
         {
-            "names": "Ngozi Nwankwo",
-            "addresses": "54 Awka Street, Fegge, Onitsha",
+            "names": "BrightNest Interiors",
+            "addresses": "19 Elegance Avenue, Wuse 2, Abuja, Nigeria",
             "phone_numbers": "+234 802 123 4567",
-            "website_URLs": "https://www.nkwoconsults.ng",
+            "website_URLs": "www.brightnestinteriors.com",
             "image": "./images/golden-logo-template-free-png.webp",
             "membership_level": "silver",
-            "email": "ngozi.nwankwo@example.com"
+            "email": "studio@brightnestinteriors.com"
 
         },
         {
-            "names": "Ifeanyi Eze",
-            "addresses": "101 Zik Avenue, GRA, Onitsha",
+            "names": "Urbanova Foods",
+            "addresses": "44 AgroPark Street, Onitsha South, Anambra",
             "phone_numbers": "+234 909 876 5432",
-            "website_URLs": "https://www.ezetech.com.ng",
+            "website_URLs": "www.urbanovafoods.ng",
             "image": "./images/images.webp",
             "membership_level": "gold",
-            "email": "ifeanyi.eze@example.com"
+            "email": "orders@urbanovafoods.ng"
 
         }
     ]
