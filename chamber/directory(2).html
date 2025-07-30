@@ -30,11 +30,11 @@
     <link rel="stylesheet" href="styles/chamber(2).css">
     <link rel="stylesheet" href="styles/mobile_chamber(2).css">
     <link rel="icon" type="image/ico" href="images/briefcase-fill.svg">
-    <script src="scripts/chamber(2).js" defer></script>
+    <script type="module" src="scripts/chamber(2).js"></script>
 
     <title>Chamber Directory</title>
 </head>
-<body class="light_background">
+<body>
     
     <header>
         <img class="logo" src="images/briefcase-fill.svg" alt="website logo">
@@ -119,24 +119,24 @@
 
             <section class="current_weather">
               <h2>Current Weather</h2>
-                <img src="images/7795628_weather_day_cloud_cloudy_sky_icon.svg" alt="" width="44" height="44">
+                <img class="weather_img" src="" alt="" width="44" height="44">
                 <ul>
-                    <li><strong>29° C</strong></li>
-                    <li>Partly cloudly</li>
-                    <li>High: 29°</li>
-                    <li>Low: 22°</li>
-                    <li>Humidity: 66%</li>
-                    <li>Sunrise: 7:00am</li>
-                    <li>Sunset: 7:30pm</li>
+                    <li class="temp"></li>
+                    <li class="weather"></li>
+                    <li class="high"></li>
+                    <li class="low"></li>
+                    <li class="humidity"></li>
+                    <li class="sunrise"></li>
+                    <li class="sunset"></li>
                 </ul>
             </section>
             
             <section class="weather_forecast">
               <h2>Weather Forecast</h2>
               <ul>
-                <li>Today: <strong>30° C</strong></li>
-                <li>Thursday: <strong>29° C</strong></li>
-                <li>Wednesday: <strong>27° C</strong></li>
+                <li class="today"></li>
+                <li class="tomorrow"></li>
+                <li class="dayAfterTomorrow"></li>
               </ul>
             </section>
 

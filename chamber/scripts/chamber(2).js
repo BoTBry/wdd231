@@ -1,3 +1,5 @@
+import {getWeather,  myUrl, pastMyUrl, pastForeCast} from "./weather.js";
+
 const info_section = document.querySelector(".info_section");
 const current_year = document.querySelector(".current_year");
 const lastModification = document.querySelector(".lastModification");
@@ -16,8 +18,8 @@ const menu = document.querySelector("#menu");
 const nav = document.querySelector("nav");
 const header = document.querySelector("header");
 const mode = document.querySelector(".mode");
-const light_dark_mode = document.querySelector("body");
-const logo = document.querySelector(".logo");
+// const light_dark_mode = document.querySelector("body");
+const htmlpage = document.querySelector("html");
 
 menu.addEventListener("click", () => {
     nav.classList.toggle("show");
@@ -27,8 +29,10 @@ menu.addEventListener("click", () => {
 
 mode.addEventListener("click", () => {
     mode.classList.toggle("switch");
-    light_dark_mode.classList.toggle("light_background");
-    light_dark_mode.classList.toggle("dark_background")
+    // light_dark_mode.classList.toggle("light_background");
+    // light_dark_mode.classList.toggle("dark_background");
+    htmlpage.classList.toggle("light_background");
+    htmlpage.classList.toggle("dark_background");
 })
 
 // Testing element:
@@ -95,3 +99,5 @@ const create_section = (array) => {
 
 
 get_data();
+getWeather(myUrl);
+pastForeCast(pastMyUrl);

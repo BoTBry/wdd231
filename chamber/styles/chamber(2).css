@@ -200,6 +200,11 @@ h1{
 
 }
 
+.event_grid section{
+  background-color: #c9c9c6;
+}
+
+
 .event_grid section ul{
   padding-left: var(--padding-left-right);
 }
@@ -239,9 +244,6 @@ table {
     border-right: 1px solid black;
   }
 
-  thead {
-    background-color: #f2f2f2;
-  }
 
 /***************** current_weather section ****************/
 .current_weather{
@@ -295,7 +297,7 @@ table {
 /****************** info_section *************/
 .info_section{
   display: grid;
-  grid-template: 1fr / repeat(auto-fit, minmax(350px, 1fr));
+  grid-template: 1fr / repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 10px;
   row-gap: 10px;
   width: 95%;
@@ -310,7 +312,7 @@ table {
 .info_section section{
   display: grid;
   grid-template: auto 1fr / 20% 1fr;
-  min-width: 350px;
+  min-width: 200px;
   width: 100%;
   height: 240px;
   background-color: var(--light-header-footer-clr);
@@ -341,7 +343,6 @@ table {
   margin-bottom: .8rem;
   align-self: baseline;
   font-size: clamp(.9rem, 1vw, 5vw);
-  white-space: nowrap;
 }
 
 .info_section section img{

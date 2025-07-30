@@ -40,6 +40,7 @@
         display: block;
         width: 100%;
         justify-self: left;
+        font-size: 1rem;
     }
 
     /************ Navigation ****************/
@@ -132,6 +133,10 @@
         width: 95%;
         max-width: 95vw;
         margin: 10px 10px;
+    }
+
+    .event_grid section:nth-child(1) h2{
+        font-size: 1.2rem;
     }
 
     .current_weather{
