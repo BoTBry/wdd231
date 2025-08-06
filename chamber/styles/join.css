@@ -1,0 +1,240 @@
+:root{
+  --padding-left-right: 10px;
+  --dark-mode-font: #fff;
+  --light-header-footer-clr: rgb(122, 122, 212);
+  --dark-h-f-section-clr: rgb(25 25 51 / 80%);
+  --light-font-clr: #191933;
+}
+
+/**************** Light Mode ****************/
+.light_background h1, .light_backgroundd h2, .light_background h3, .light_background p, .light_background a{
+  color: var(--light-font-clr);
+}
+
+/****************** Dark Mode ********************/
+.dark_background h1, .dark_background h2, .dark_background h3, .dark_background p, .dark_background a{
+  color: var(--dark-mode-font);
+}
+
+.dark_background{
+  background-image: url(../images/IMG_20250516_214408.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dark_background main{
+    background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background main .grid section{
+    background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background main .list section{
+    background-color: var(--dark-h-f-section-clr);
+}
+.dark_background main .list section:nth-child(even) {
+	background-color: rgb(29, 29, 73, 0.8);
+}
+.dark_background #container #join_button{
+  background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background .event_grid section h2{
+  background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background header{
+  background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background .info_section section{
+  background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background footer{
+  background-color: var(--dark-h-f-section-clr);
+}
+
+/**************** Header ***********************/
+h1, h2, h3, h4{
+    font-family: 'Montserrat','Roboto', 'Open Sans';
+}
+
+p{
+    font-family: 'Open Sans', sans-serif, verdana;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif, verdana;
+}
+
+table, .current_weather ul, .weather_forecast ul{
+  font-family: 'Open Sans', sans-serif, verdan;
+  
+}
+
+header{
+  display: grid;
+  grid-template: 1fr / minmax(44px, 65px) auto 1fr auto;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--light-header-footer-clr);
+}
+
+header h2{
+  padding-left: var(--padding-left-right);
+  margin: 0 auto;
+}
+
+.logo{
+  width: 80%;
+  height: auto;
+  padding-left: var(--padding-left-right);
+}
+
+/****************** Navigation *****************/
+#menu{
+  display: none;
+  cursor: pointer;
+}
+
+nav{
+  justify-self: right;
+  width: fit-content;
+  padding-right: var(--padding-left-right);
+}
+
+.navigation{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+}
+
+.navigation li{
+  height: 100%;
+}
+
+.navigation li a{
+
+  text-decoration: none;
+  padding: 35px 15px;
+  align-items: center;
+  align-content: center;
+}
+
+.navigation li a.current{
+  background-color: rgb(187, 187, 187, 0.5);
+}
+
+.navigation li a:hover{
+  background-color: rgb(187, 187, 187, 0.5);
+  transition: 0.5s;
+}
+
+.mode{
+  margin: 0 var(--padding-left-right) 0 0;
+}
+
+.light_mode{
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 46px;
+  height: 46px;
+}
+
+.dark_mode{
+  display: none;
+}
+
+.switch .light_mode{
+  display: none;
+}
+
+.switch .dark_mode{
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 46px;
+  height: 26px;
+}
+
+.light_mode:hover, .dark_mode:hover{
+  cursor: pointer;
+}
+
+/****************** Main ********************/
+
+.application{
+    margin: var(--padding-left-right);
+    width: 95%;
+    max-width: 600px;
+    justify-self: left;
+}
+
+fieldset{
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+legend{
+    padding: 0 var(--padding-left-right);
+    margin-bottom: var(--padding-left-right);
+}
+
+.application label{
+    display: block;
+    margin-bottom: var(--padding-left-right);
+    white-space: nowrap;
+}
+
+.application label input{
+    display: block;
+    margin-top: 5px;
+}
+
+.levels{
+    margin: var(--padding-left-right);
+}
+
+
+/****************** Footer *****************/
+
+footer{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  background-color: var(--light-header-footer-clr);
+}
+
+.left_grid, .right_grid{
+  justify-items: left;
+  align-items: center;
+}
+
+.left_grid p, .left_grid a, .right_grid p, .right_grid a{
+  line-height: .5rem;
+}
+
+.social_grid{
+  display: flex;
+  column-gap: 10px;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-top: var(--padding-left-right);
+}
+
+.social_grid img{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+}
+
+.left_grid{
+  padding-left: var(--padding-left-right);
+}
