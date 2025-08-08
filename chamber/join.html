@@ -30,7 +30,8 @@
     <link rel="stylesheet" href="styles/join.css">
     <link rel="stylesheet" href="styles/mobile_join.css">
     <link rel="icon" type="image/ico" href="images/briefcase-fill.svg">
-    <script type="module" src="scripts/chamber.js"></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/general.js" defer></script>
 
     <title>Chamber Directory</title>
 </head>
@@ -83,7 +84,7 @@
 
                     <label>membership level:<br>
                         <select name="membership level" required>
-                            <option value="">Select a level...</option>
+                            <option value="" disabled selected>Select a level...</option>
                             <option value="NP Membership" title="NP Membership is for non profit organizations and there is no fee.">NP Membership</option>
                             <option value="Bronze Membership" title="Bronze Membership">Bronze Membership</option>
                             <option value="Silver Membership" title="Silver Membership">Silver Membership</option>
@@ -102,22 +103,30 @@
 
         <aside class="levels">
             <h2>Membership Levels</h2>
+
             <section class="np_membership">
                 <h2>Non Profit Membership Level</h2>
-                <button type="button">Learn More</button>
+                <button class="np_membership_btn" type="button">Learn More</button>
             </section>
             <section class="bronze">
                 <h2>Bronze Membership Level</h2>
-                <button type="button">Learn More</button>
+                <button class="bronze_btn" type="button">Learn More</button>
             </section>
             <section class="silver">
                 <h2>Sliver Membership Level</h2>
-                <button type="button">Learn More</button>
+                <button class="silver_btn" type="button">Learn More</button>
             </section>
             <section class="gold">
                 <h2>Gold Membership Level</h2>
-                <button type="button">Learn More</button>
+                <button class="gold_btn" type="button">Learn More</button>
             </section>
+
+            <dialog class="dialog">
+                <div class="wrapper">
+                    
+                </div>
+            </dialog>
+
         </aside>
     </main>
 

@@ -114,6 +114,43 @@
 
     /***************** Main ***************/
 
+    main{
+        grid-template: 1fr 1fr / 1fr;
+    }
+
+    .application{
+        width: 100%;
+        margin: auto 0;
+        max-width: 830px;
+
+        h2{
+            padding-left: var(--padding-left-right);
+            font-size: 1.3rem;
+        }
+    }
+
+    #my_form{
+        justify-self: center;
+        margin: auto;
+        width: 100%;
+        max-width: 400px;
+
+        fieldset{
+            width: 80%;
+            max-width: 400px;
+            justify-self: center;
+        }
+    }
+
+    .levels{
+        margin: 0;
+        h2{
+            margin: 0;
+            padding-left: var(--padding-left-right);
+            justify-self: left;
+            font-size: 1.3rem;
+        }
+    }
     /*************** Footer **************/
     footer{
         display: grid;

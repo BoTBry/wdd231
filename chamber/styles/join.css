@@ -24,18 +24,10 @@
   background-attachment: fixed;
 }
 
-.dark_background main{
+.list section{
     background-color: var(--dark-h-f-section-clr);
 }
-
-.dark_background main .grid section{
-    background-color: var(--dark-h-f-section-clr);
-}
-
-.dark_background main .list section{
-    background-color: var(--dark-h-f-section-clr);
-}
-.dark_background main .list section:nth-child(even) {
+.list section:nth-child(even) {
 	background-color: rgb(29, 29, 73, 0.8);
 }
 .dark_background #container #join_button{
@@ -52,6 +44,16 @@
 
 .dark_background .info_section section{
   background-color: var(--dark-h-f-section-clr);
+}
+
+.dark_background .levels dialog{
+  h2{
+    color: #000;
+  }
+
+  p{
+    color: #000;
+  }
 }
 
 .dark_background footer{
@@ -82,6 +84,7 @@ header{
   justify-items: center;
   align-items: center;
   background-color: var(--light-header-footer-clr);
+  overflow-y: hidden;
 }
 
 header h2{
@@ -170,21 +173,35 @@ nav{
 
 /****************** Main ********************/
 
+main{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .application{
     margin: var(--padding-left-right);
     width: 95%;
     max-width: 600px;
     justify-self: left;
+
+    h2{
+      margin-top: 10px;
+    }
 }
 
 fieldset{
-    margin: 20px 0;
-    border-radius: 5px;
+  background-color: var(--light-header-footer-clr);
+  margin: 20px 0;
+  border-radius: 5px;
 }
 
 legend{
     padding: 0 var(--padding-left-right);
     margin-bottom: var(--padding-left-right);
+    background-color: #fff;
+    border: #191933 solid 1px;
 }
 
 .application label{
@@ -198,10 +215,172 @@ legend{
     margin-top: 5px;
 }
 
-.levels{
-    margin: var(--padding-left-right);
+form input{
+  height: 40px;
+  padding: 2px 0 2px 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
 
+form input:required:valid{
+  border-left: solid green 3.5px;
+}
+
+form input:required:invalid{
+  border-left: solid red 3.5px;
+}
+
+form select{
+  padding: 13px 0;
+}
+
+.submit_btn{
+  margin: auto;
+  border: none;
+  padding: 14px 60px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  align-content: center;
+  color: #fff;
+  background: linear-gradient(rgb(170, 167, 169), #191933);
+  /* box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.3); */
+  border-radius: 35px;
+}
+
+
+.levels{
+    margin: var(--padding-left-right);
+    
+    h2{
+      margin: var(--padding-left-right) auto;
+      width: 80%;
+      max-width: 600px;
+    }
+}
+
+.levels section{
+  display: grid;
+  grid-template: auto 1fr / 1fr;
+  background-color: #eee;
+  justify-items: center;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  height: 150px;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 3px 1px 6px 2px #616164;
+
+  h2{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    margin-top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: #191933 dashed 1.5px;
+  }
+
+  button{
+    display: block;
+    align-self: end;
+    margin: auto;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.levels section:nth-child(odd){
+  border-radius: 0 20px 0 20px;
+}
+
+.levels section:nth-child(even){
+  border-radius: 20px 0 20px 0;
+}
+
+.levels section:nth-child(5){
+  h2{
+    background-color: gold;
+  }
+
+  button{
+    background-color: gold;
+  }
+}
+.levels section:nth-child(3){
+  h2{
+    background-color: rgb(233, 113, 0);
+  }
+
+  button{
+    background-color: rgb(233, 113, 0);
+  }
+}
+.levels section:nth-child(4){
+  h2{
+    background-color: silver;
+  }
+
+  button{
+    background-color: silver;
+  }
+}
+.levels section:nth-child(2){
+  h2{
+    background-color: var(--light-header-footer-clr);
+  }
+
+  button{
+    background-color: var(--light-header-footer-clr);
+  }
+}
+
+/***************** Dialog ******************/
+
+.dialog::backdrop{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.levels dialog{
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(255, 255, 255, 0.7);
+  border: #191933 solid 1.5px;
+  border-radius: 10px;
+
+
+  .wrapper{
+    display: grid;
+    grid-template: auto 1fr / 1fr;
+    position: relative;
+    padding: 16px;
+    background-color: rgb(255, 255, 255, 0.7);
+
+    h2{
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .close_button{
+      position: absolute;
+      top: 10px;
+      right: 5px;
+      border: none;
+      background-color: rgb(255, 255, 255, 0);
+      cursor: pointer;
+
+      img{
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+}
 
 /****************** Footer *****************/
 
