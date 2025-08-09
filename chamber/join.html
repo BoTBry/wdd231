@@ -62,27 +62,27 @@
         <div class="application">
             <h2>Membership Application Form</h2>
 
-            <form action="thankyou.html" method="GET" id="my_form">
+            <form  method="get"  action="thankyou.html" id="my_form">
                 <fieldset>
                     <legend>User Info</legend>
 
-                    <label>First Name:<input name="First Name" type="text" title="Your First Name" required autocomplete="given-name"></label>
+                    <label>First Name<input name="FirstName" type="text" title="Your First Name" required autocomplete="given-name"></label>
 
-                    <label>Last Name:<input name="Last Name" type="text" title="Your Last Name" required autocomplete="family-name"></label>
+                    <label>Last Name<input name="LastName" type="text" title="Your Last Name" required autocomplete="family-name"></label>
 
-                    <label>Email:<input name="Email" type="email" title="Your Email" placeholder="example@gmail.com" required autocomplete="email"></label>
+                    <label>Email<input name="Email" type="email" title="Your Email" placeholder="example@gmail.com" required autocomplete="email"></label>
 
-                    <label>Phone:<input type="tel" name="Phone" title="Your Phone Number" autocomplete="tel" placeholder="000-0000-000" required></label>
+                    <label>Phone<input type="tel" name="Phone" title="Your Phone Number" autocomplete="tel" placeholder="000-0000-000" required></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business Info</legend>
 
-                    <label>organization's name:<input type="text" name="organization's name" autocomplete="organization" required></label>
+                    <label>organization's name<input type="text" name="organization's name" autocomplete="organization" required></label>
 
-                    <label>Organizational Title:<input type="text" name="Organizational Title" title="PLease Enter At Least 7 characters. Only letters. hyphens, and spaces are allowed." autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"></label>
+                    <label>Organizational Title<input type="text" name="Organizational Title" title="PLease Enter At Least 7 characters. Only letters. hyphens, and spaces are allowed." autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"></label>
 
-                    <label>membership level:<br>
+                    <label>membership level<br>
                         <select name="membership level" required>
                             <option value="" disabled selected>Select a level...</option>
                             <option value="NP Membership" title="NP Membership is for non profit organizations and there is no fee.">NP Membership</option>
@@ -92,9 +92,9 @@
                         </select>
                     </label>
 
-                    <label>Organization's Description:<br><textarea name="Organization's Description" title="Your Organization's Description"></textarea></label>
+                    <label>Organization's Description<br><textarea name="Organization's Description" title="Your Organization's Description"></textarea></label>
 
-                    <input type="button" class="submit_btn" value="Register">
+                    <input type="submit" class="submit_btn" value="Register">
 
                     <input type="hidden" name="Time Stamp" id="timestamp">
                 </fieldset>
@@ -103,23 +103,57 @@
 
         <aside class="levels">
             <h2>Membership Levels</h2>
-
-            <section class="np_membership">
-                <h2>Non Profit Membership Level</h2>
-                <button class="np_membership_btn" type="button">Learn More</button>
-            </section>
-            <section class="bronze">
-                <h2>Bronze Membership Level</h2>
-                <button class="bronze_btn" type="button">Learn More</button>
-            </section>
-            <section class="silver">
-                <h2>Sliver Membership Level</h2>
-                <button class="silver_btn" type="button">Learn More</button>
-            </section>
-            <section class="gold">
-                <h2>Gold Membership Level</h2>
-                <button class="gold_btn" type="button">Learn More</button>
-            </section>
+            <div class="levels_grid">
+        
+                <section class="np_membership">
+                    <h2>Non Profit Membership</h2>
+                    <ul>
+                        <li><img src="images/check-circle-fill.svg" alt=""><div>Inclusion in Chamber online directory</div></li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Access to monthly networking events</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Member discounts for select events</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Opportunity to post community announcements</li>
+                    </ul>
+                    <button class="np_membership_btn" type="button">Learn More</button>
+                </section>
+                <section class="bronze">
+                    <h2>Bronze Membership</h2>
+                    <ul>
+                        <li><img src="images/check-circle-fill.svg" alt="">All Non-Profit Membership benefits</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Business listing with logo on Chamber website</li>
+                        <li><img src="images/check-circle-fill.svg" alt=""> Access to business development workshops</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Social media mentions twice a year</li>
+                    </ul>
+                    <button class="bronze_btn" type="button">Learn More</button>
+                </section>
+                <section class="silver">
+                    <h2>Sliver Membership</h2>
+                    <ul>
+                        <li><img src="images/check-circle-fill.svg" alt="">All Bronze Membership benefits</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Priority booth space at Chamber expos</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Free entry to select training programs</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Social media mentions quarterly</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Featured spotlight in monthly newsletter</li>
+                    </ul>
+                    <button class="silver_btn" type="button">Learn More</button>
+                </section>
+                <section class="gold">
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li><img src="images/check-circle-fill.svg" alt="">All Silver Membership benefits</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Premium banner placement on Chamber homepage</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Unlimited event attendance for two representatives</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Personalized business promotion plan with Chamber staff</li>
+                        <li><img src="images/check-circle-fill.svg" alt="">Invitation to exclusive executive networking dinners</li>
+                    </ul>
+                    <div class="confe_anime"></div>
+                    <div class="confe_anime"></div>
+                    <div class="confe_anime"></div>
+                    <div class="confe_anime"></div>
+                    <div class="confe_anime"></div>
+                    <div class="confe_anime"></div>
+                    <button class="gold_btn" type="button">Learn More</button>
+                </section>
+            </div>
 
             <dialog class="dialog">
                 <div class="wrapper">

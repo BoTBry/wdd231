@@ -1,6 +1,18 @@
 [
     {
-        "header": "Hello",
-        "paragraph": "yuilvndonsdoiniub ndv, saybuidsjckndkxnidoud"
+        "header": "NP Membership",
+        "paragraph": "<strong>Description:</strong><br>For community-focused organizations, charities, and non-profits that want to stay connected without heavy financial commitment."
+    },
+    {
+        "header": "Bronze Membership",
+        "paragraph": "<strong>Description:</strong><br>An entry-level membership for small businesses and startups looking to establish local presence."
+    },
+    {
+        "header": "Silver Membership",
+        "paragraph": "<strong>Description:</strong><br>Perfect for growing businesses seeking stronger visibility and greater networking opportunities."
+    },
+    {
+        "header": "Gold Membership",
+        "paragraph": "<strong>Description:</strong><br>For established businesses aiming for top-tier exposure and influence in the Chamber."
     }
 ]

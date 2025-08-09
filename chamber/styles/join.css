@@ -210,6 +210,11 @@ legend{
     white-space: nowrap;
 }
 
+.application label textarea{
+  min-width: 70%;
+  min-height: 80px;
+}
+
 .application label input{
     display: block;
     margin-top: 5px;
@@ -219,7 +224,7 @@ form input{
   height: 40px;
   padding: 2px 0 2px 5px;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 form input:required:valid{
@@ -261,81 +266,273 @@ form select{
     }
 }
 
+.levels section button:hover{
+  color: #fff;
+}
+
 .levels section{
   display: grid;
-  grid-template: auto 1fr / 1fr;
+  grid-template: auto 1fr auto/ 1fr;
   background-color: #eee;
   justify-items: center;
   text-align: center;
   width: 80%;
-  max-width: 600px;
-  height: 150px;
+  max-width: 250px;
+  height: fit-content;
   margin: 20px auto;
-  overflow: hidden;
   box-shadow: 3px 1px 6px 2px #616164;
+  border-radius: 25px 20px 40px 15px;
+  padding-bottom: var(--padding-left-right);
+
+  ul{
+    list-style: none;
+    padding: 0;
+    grid-row: 2 / 3;
+    width: 90%;
+    text-align: left;
+    justify-self: left;
+    margin-left: var(--padding-left-right);
+    
+    li{
+      padding: 0 0 10px 0;
+      img{
+        float: left;
+        padding-right: var(--padding-left-right);
+      }
+    }
+  }
 
   h2{
-    font-size: 1.2rem;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding: var(--padding-left-right);
     margin-top: 0;
-    width: 100%;
-    padding-bottom: 10px;
-    border-bottom: #191933 dashed 1.5px;
+    width: fit-content;
+    border-radius: 0 0 5px 5px;
+    border: #191933 dashed 1.5px;
+    color: #000;
   }
 
   button{
     display: block;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
     align-self: end;
     margin: auto;
+    z-index: 10;
     border: none;
-    padding: 14px 20px;
+    padding: 14px 30px;
     border-radius: 20px;
+    transition: 2s;
     cursor: pointer;
   }
 }
 
-.levels section:nth-child(odd){
-  border-radius: 0 20px 0 20px;
+.levels_grid{
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
 }
 
-.levels section:nth-child(even){
-  border-radius: 20px 0 20px 0;
-}
-
-.levels section:nth-child(5){
+.levels section:nth-child(4){
   h2{
     background-color: gold;
   }
 
   button{
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.3);
     background-color: gold;
+  }
+  button:hover{
+    background-color: #000;
+    
+  }
+
+}
+.levels section:nth-child(2){
+  h2{
+    background-color: rgb(233, 113, 0);
+  }
+
+  button{
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.3);
+    background-color: rgb(233, 113, 0);
+  }
+  button:hover{
+    background-color: #000;
+    
   }
 }
 .levels section:nth-child(3){
   h2{
-    background-color: rgb(233, 113, 0);
-  }
-
-  button{
-    background-color: rgb(233, 113, 0);
-  }
-}
-.levels section:nth-child(4){
-  h2{
     background-color: silver;
   }
 
   button{
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.3);
     background-color: silver;
   }
+  button:hover{
+    background-color: #000;
+    
+  }
 }
-.levels section:nth-child(2){
+.levels section:nth-child(1){
   h2{
     background-color: var(--light-header-footer-clr);
   }
 
   button{
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.3);
     background-color: var(--light-header-footer-clr);
+  }
+  button:hover{
+    background-color: #000;
+    
+  }
+}
+
+/**************** Button Animation ***************/
+.confe_anime:nth-child(3){
+  background-color: gold;
+  width: 2.5px;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: first_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes first_confe {
+  0%{
+    transform: rotateZ(209deg) translateY(0) translateX(-15px);
+  }
+  93%{
+    transform: rotateZ(209deg) translateY(0) translateX(-15px);
+  }
+
+  100%{
+    transform: rotateZ(209deg) translateY(40px) translateX(-15px);
+  }
+}
+
+.confe_anime:nth-child(4){
+  background-color: gold;
+  width: 2.5px;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: second_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes second_confe {
+  0%{
+    transform: rotate(150deg) translateX(24px) translateY(0);
+  }  
+  93%{
+    transform: rotate(150deg) translateX(24px) translateY(0);
+  }
+
+  100%{
+    transform: rotateZ(150deg) translateX(24px) translateY(45px);
+  }
+}
+
+.confe_anime:nth-child(5){
+  background-color: gold;
+  width: 2.5px;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: third_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes third_confe {
+  0%{
+    transform: rotateZ(92deg) translateY(0) translateX(10px);
+  }
+  93%{
+    transform: rotateZ(92deg) translateY(0) translateX(10px);
+  }
+
+  100%{
+    transform: rotateZ(92deg) translateY(-80px) translateX(10px);
+  }
+}
+
+.confe_anime:nth-child(6){
+  background-color: gold;
+  width: 2.5px;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: fourth_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes fourth_confe {
+  0%{
+    transform: rotateZ(280deg) translateY(0) translateX(-25px);
+  }
+  93%{
+    transform: rotateZ(280deg) translateY(0) translateX(-25px);
+  }
+
+  100%{
+    transform: rotateZ(280deg) translateY(-90px) translateX(-25px);
+  }
+}
+
+.confe_anime:nth-child(7){
+  background-color: gold;
+  width: 2.5px;
+  height: 12px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: fifth_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes fifth_confe {
+  0%{
+    transform: rotateZ(300deg) translateX(-20px) translateY(0);
+  }
+  93%{
+    transform: rotateZ(300deg) translateX(-20px) translateY(0);
+  }
+
+  100%{
+    transform: rotateZ(300deg) translateX(-20px) translateY(70px);
+  }
+}
+
+.confe_anime:nth-child(8){
+  background-color: gold;
+  width: 2.5px;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  animation-name: sixth_confe;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes sixth_confe {
+  0%{
+    transform: rotateZ(45deg) translateY(0);
+  }
+  93%{
+    transform: rotateZ(45deg) translateY(0);
+  }
+
+  100%{
+    transform: rotateZ(45deg) translateY(70px);
   }
 }
 
@@ -360,6 +557,7 @@ form select{
     position: relative;
     padding: 16px;
     background-color: rgb(255, 255, 255, 0.7);
+    height: fit-content;
 
     h2{
       text-align: center;

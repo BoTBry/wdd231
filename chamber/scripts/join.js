@@ -16,15 +16,15 @@ np_membership_btn.addEventListener("click", () =>{
 })
 
 bronze_btn.addEventListener("click", () =>{
-    membershipdata(0);
+    membershipdata(1);
 })
 
 silver_btn.addEventListener("click", () =>{
-    membershipdata(0);
+    membershipdata(2);
 })
 
 gold_btn.addEventListener("click", () =>{
-    membershipdata(0);
+    membershipdata(3);
 })
 
 const populatedialog = (data, number) => {
