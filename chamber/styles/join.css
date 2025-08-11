@@ -75,7 +75,7 @@ a{
 
 table, .current_weather ul, .weather_forecast ul{
   font-family: 'Open Sans', sans-serif, verdan;
-  
+
 }
 
 header{
@@ -258,7 +258,7 @@ form select{
 
 .levels{
     margin: var(--padding-left-right);
-    
+
     h2{
       margin: var(--padding-left-right) auto;
       width: 80%;
@@ -292,7 +292,7 @@ form select{
     text-align: left;
     justify-self: left;
     margin-left: var(--padding-left-right);
-    
+
     li{
       padding: 0 0 10px 0;
       img{
@@ -344,7 +344,7 @@ form select{
   }
   button:hover{
     background-color: #000;
-    
+
   }
 
 }
@@ -359,7 +359,7 @@ form select{
   }
   button:hover{
     background-color: #000;
-    
+
   }
 }
 .levels section:nth-child(3){
@@ -373,7 +373,7 @@ form select{
   }
   button:hover{
     background-color: #000;
-    
+
   }
 }
 .levels section:nth-child(1){
@@ -387,7 +387,7 @@ form select{
   }
   button:hover{
     background-color: #000;
-    
+
   }
 }
 
@@ -430,7 +430,7 @@ form select{
 @keyframes second_confe {
   0%{
     transform: rotate(150deg) translateX(24px) translateY(0);
-  }  
+  }
   93%{
     transform: rotate(150deg) translateX(24px) translateY(0);
   }
@@ -540,6 +540,7 @@ form select{
 
 .dialog::backdrop{
   background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
 }
 
 .levels dialog{
@@ -614,4 +615,20 @@ footer{
 
 .left_grid{
   padding-left: var(--padding-left-right);
+}
+
+/****************** Form ****************/
+.submitted{
+  width: 80%;
+  max-width: 700px;
+  padding: var(--padding-left-right);
+  background-color: rgb(97, 97, 100, 0.5);
+  margin-left: var(--padding-left-right);
+  border: #000 dashed 2px;
+  border-radius: 5px;
+  text-align: left;
+
+  p{
+    display: block;
+  }
 }

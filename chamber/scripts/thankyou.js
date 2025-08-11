@@ -15,13 +15,13 @@ console.log(convert.get("Organization's Description"));
 
 const results = document.querySelector(".submitted");
 results.innerHTML = `
-<p>Hello ${convert.get("LastName")} ${convert.get("FirstName")}, Your form has been submitted.<br>Please review your information below:</p>
-<p>First Name: ${convert.get("FirstName")}</p>
-<p>Last Name: ${convert.get("LastName")}</p>
-<p>Phone Number: ${convert.get("Phone")}</p>
-<p>Email: ${convert.get("Email")}</p>
-<p>organization's name: ${convert.get("organization's name")}</p>
-<p>Organizational Title: ${convert.get("Organizational Title")}</p>
-<p>membership level: ${convert.get("membership level")}</p>
-<p>Organization's Description: ${convert.get("Organization's Description")}</p>
+<p><strong>Hello!!</strong> ${convert.get("LastName")} ${convert.get("FirstName")}, Your form has been submitted.<br>Please review your information below:</p>
+<p><strong>First Name:</strong> ${convert.get("FirstName")}</p>
+<p><strong>Last Name:</strong> ${convert.get("LastName")}</p>
+<p><strong>Phone Number:</strong> ${convert.get("Phone")}</p>
+<p><strong>Email:</strong> ${convert.get("Email")}</p>
+<p><strong>organization's name:</strong> ${convert.get("organization's name")}</p>
+<p><strong>Organizational Title:</strong> ${convert.get("Organizational Title")}</p>
+<p><strong>membership level:</strong> ${convert.get("membership level")}</p>
+<p><strong>Organization's Description:</strong> ${convert.get("Organization's Description")}</p>
 `;
