@@ -323,6 +323,7 @@ form select{
     padding: 14px 30px;
     border-radius: 20px;
     transition: 2s;
+    color: #000;
     cursor: pointer;
   }
 }
