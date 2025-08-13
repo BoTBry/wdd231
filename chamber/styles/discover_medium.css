@@ -39,6 +39,8 @@
         display: block;
         grid-area: image;
         justify-self: center;
+        justify-items: center;
+        justify-content: center;
         width: 300px;
         margin: auto;
         border-radius: 5px;
