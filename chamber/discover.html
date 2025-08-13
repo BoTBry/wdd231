@@ -29,12 +29,14 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/join.css">
     <link rel="stylesheet" href="styles/mobile_join.css">
+    <link rel="stylesheet" href="styles/mobile_discover.css">
+    <link rel="stylesheet" href="styles/discover_medium.css">
+    <link rel="stylesheet" href="styles/discover_large.css">
     <link rel="icon" type="image/ico" href="images/briefcase-fill.svg">
+    <script type="module" src="scripts/discover.js"></script>
     <script src="scripts/general.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
 
-    <title>Chamber Directory</title>
+    <title>Discover Our Businesses</title>
 </head>
 <body class="light_background">
 
@@ -48,7 +50,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href= "discover.html">Discover</a></li>
+                <li><a class="current" href= "">Discover</a></li>
             </ul>
 
         </nav>
@@ -59,7 +61,9 @@
 
     </header>
     
-    <main class="submitted"></main>
+    <div id="sidebar"></div>
+    <main id="container">
+    </main>
 
     <footer>
         <div class="left_grid">

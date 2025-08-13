@@ -1,0 +1,88 @@
+@media screen and (max-width: 640px) {
+
+    .dark_background section{
+        background-color: var(--dark-h-f-section-clr);
+    }
+    
+    #container{
+        margin: 10px;
+        justify-self: center;
+    }
+
+    .card{
+        display: grid;
+        overflow: hidden;
+        background-color: #ddd;
+        width: 90%;
+        max-width: 650px;
+        border: solid 2px #808080;
+        border-radius: 10px;
+        margin: 10px auto;
+        padding-bottom: 10px;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: 
+            "header"
+            "image"
+            "description"
+            "address"
+            "season"
+            "button";
+
+    }
+
+    .card h2{
+        grid-area: header;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .card img{
+        display: block;
+        grid-area: image;
+        justify-self: center;
+        width: 300px;
+        margin: auto;
+        border-radius: 5px;
+    }
+ 
+    .season{
+        display: inline;
+        grid-area: season;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: fit-content;
+        padding: 0 10px;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .description{
+        display: block;
+        grid-area: description;
+        padding: 0 10px;
+        justify-self: center;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .address{
+        grid-area: address;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        justify-self: center;
+        text-align: center;
+        width: fit-content;
+        padding: 10px 10px;
+    }
+
+    .card button{
+        display: block;
+        grid-area: button;
+        width: 200px;
+        height: 44px;
+        border-radius: 20px;
+        justify-self: center;
+        border: #000 solid 2px;
+    }
+
+}
