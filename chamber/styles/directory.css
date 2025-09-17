@@ -81,6 +81,7 @@ header{
   grid-template: 1fr / minmax(44px, 65px) auto 1fr auto;
   justify-items: center;
   align-items: center;
+  overflow: hidden;
   background-color: var(--light-header-footer-clr);
 }
 

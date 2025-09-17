@@ -33,7 +33,7 @@
     /************** Header ****************/
     header{
         display: grid;
-        grid-template: auto 1fr /  minmax(44px, 65px) 1fr auto auto;
+        grid-template: auto 1fr / minmax(30px, 65px) 1fr auto auto;
     }
 
     header h2{
@@ -111,6 +111,10 @@
         margin: 0;
     }
 
+    main h1{
+        font-size: 1.5rem;
+    }
+
     /*************** Footer **************/
     footer{
         display: grid;
@@ -121,4 +125,38 @@
         margin-left: var(--padding-left-right);
         margin-bottom: var(--padding-left-right);
     }
+}
+
+@media screen and (max-width: 530px) {
+    header h2{
+        font-size: 1.2rem;
+        justify-self: left;
+        text-align: left;
+    }
+
+    .logo{
+        width: 42px;
+        height: 42px;
+        justify-self: left;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    header{
+        grid-template: auto 1fr / minmax(30px, 45px) 1fr auto auto;
+    }
+
+    header h2{
+        font-size: 1rem;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+main h1{
+    font-size: 1.3rem;
 }
