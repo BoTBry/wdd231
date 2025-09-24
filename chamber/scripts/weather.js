@@ -42,13 +42,13 @@ export async function pastForeCast (pastMyUrl) {
 export function displayPastForeCast (data) {
     // list[2].main.temp
     // list[10].main.temp
-    const tomorrowCode = "1753920000";
+    const tomorrowCode = data.list[2].dt;
     const tomorrowCodeDate = new Date(tomorrowCode * 1000);
-    const tomorrowdayOfWeek = tomorrowCodeDate.toLocaleDateString(`en-US`, {weekday: 'long'});
+    const tomorrowdayOfWeek = tomorrowCodeDate.toLocaleDateString('en-US', {weekday: 'long'});
 
-    const dayAfterTomorrowCode = "1754006400";
+    const dayAfterTomorrowCode = data.list[10].dt;
     const dayAfterTomorrowDate = new Date(dayAfterTomorrowCode * 1000);
-    const dayAfterTomorrowdayOfWeek = dayAfterTomorrowDate.toLocaleDateString(`en-US`, {weekday: 'long'});
+    const dayAfterTomorrowdayOfWeek = dayAfterTomorrowDate.toLocaleDateString('en-US', {weekday: 'long'});
 
     const tomorrow = document.querySelector(".tomorrow");
     const dayAfterTomorrow = document.querySelector(".dayAfterTomorrow");
