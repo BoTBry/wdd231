@@ -1,0 +1,114 @@
+[
+    {
+        "name" : "Dungeon Odyssey",
+        "chapters" : "100+",
+        "photos" : 
+            [
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]},
+                {"image" : ["", ""]}
+            ],
+        "category" : "Adventure",
+        "rating" : 4.2,
+        "description" : "Kim Jinwoo was born and raised in a labyrinth after the great dungeon appeared on Earth. To survive among monsters and demons, he adapted, evolved, and became stronger than anyone else. 'Dungeon Odyssey' follows his journey as he explores the depths of the dungeon, discovers its secrets, and begins his conquest to become its master.",
+        "profitBg_photo" : "./images/Dungeon_Odyssey/Dungeon_Odyssey_bg_pf.webp",
+        "status" : "On Going",
+        "status_icon" : "./images/icon/clock.svg",
+        "genre" : ["Action","Adventure","System","","",""]
+    },
+
+    {
+        "name" : "Legends Of The Northern Blade",
+        "chapters" : "",
+        "photos" : 
+            [
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_1_hor.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_2_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_3_hor.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_4_hor.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_5_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_6_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_7_hor.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_8_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_9_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_10_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_11_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_12_ver.webp", ""]},
+                {"image" : ["./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_photos/photo_13_ver.webp", ""]}
+            ],
+        "category" : "Murim",
+        "rating" : 5,
+        "description" : "When the Northern Heavenly Sect was betrayed and destroyed, its leader was accused of treason and took his own life to protect his son, Jin Mu-Won. Years later, Jin Mu-Won emerges from isolation, armed with his father’s teachings and an unshakable will to rebuild the sect and seek vengeance. A masterpiece of martial arts and revenge, 'Legend of the Northern Blade' is a tale of honor, loss, and power in the brutal Murim world.",
+        "profitBg_photo" : "./images/Legends_of _the_northern_blade/Legends_of _the_northern_blade_bg.webp",
+        "status" : "Completed",
+        "status_icon" : "./images/icon/check2-all.svg",
+        "genre" : ["Action","Murim","Adventure","","",""]
+    },
+
+    {
+        "name" : "Omniscient Reader Viewpoint",
+        "chapters" : "",
+        "photos" : 
+            [
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_1_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_2_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_3_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_4_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_5_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_6_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_7_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_8_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_9_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_10_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_11_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_12_ver.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_13_hor.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_14_hor.webp", ""]},
+                {"image" : ["./images/omniscient_reader/omniscient_reader_photos/photo_15_hor.webp", ""]}
+            ],
+        "category" : "Adventure",
+        "rating" : 4.7,
+        "description" : "When an ordinary office worker, Kim Dokja, finds the web novel he’s been reading for years suddenly turning into reality, he becomes the only person who knows how the story will unfold. With his knowledge, wit, and courage, Dokja must navigate a world of deadly scenarios, powerful beings, and unravel the mystery of the story itself. 'Omniscient Reader’s Viewpoint' is a thrilling meta-fantasy about survival, destiny, and storytelling.",
+        "profitBg_photo" : "./images/omniscient_reader/omniscient_bg.webp",
+        "status" : "On Going",
+        "status_icon" : "./images/icon/clock.svg",
+        "genre" : ["Action","System","Adventure","","",""]
+    },
+
+    {
+        "name" : "",
+        "chapters" : "",
+        "photos" : 
+            [
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_1_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_2_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_3_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_4_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_5_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_6_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_7_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_8_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_9_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_10_hor.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_11_ver.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_12_hor.webp", ""]},
+                {"image" : ["./images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_photos/photo_13_hor.webp", ""]}
+  
+            ],
+        "category" : "Murim",
+        "rating" : 4.1,
+        "description" : "Set in the turbulent world of martial clans, 'Young Lord of the Sichuan Tang' follows Tang Yoosung, heir to the prestigious Sichuan Tang family known for their deadly poisons and assassins. After a betrayal threatens his clan, Yoosung must rise as a leader, mastering martial arts, uncovering conspiracies, and restoring his family’s honor in the unforgiving Murim world.",
+        "profitBg_photo" : "images/Young_Lord_of_the_Sichuan_Tang/Young_Lord_of_the_Sichuan_Tang_bg.webp",
+        "status" : "On Going",
+        "status_icon" : "./images/icon/clock.svg",
+        "genre" : ["Action","Murim","","","",""]
+    }
+]
