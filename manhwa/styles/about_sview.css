@@ -29,19 +29,20 @@
     }
 
     .active .m-nav{
-        margin-right: 0;
+        transform: translateX(10%);
         transition: 0.8s ease-in-out;
     }
 
     .m-nav{
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 42px 1fr;
         height: 100vh;
         width: 90%;
         justify-self: right;
         z-index: 10;
         position: fixed;
-        margin-right: -84.5%;
+        transform: translateX(102.5%);
+        transition: transform 0.8s ease-in-out;
         transition: 0.8s ease-in-out;
     }
 
@@ -121,95 +122,5 @@
     .social_grid span:nth-child(2) p{
         text-align: center;
         justify-self: center;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    .m-nav{
-        margin-right: -84.1%;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .m-nav{
-        margin-right: -83.8%;
-    }
-}
-
-@media screen and (max-width: 630px) {
-    .m-nav{
-        margin-right: -83.3%;
-    }
-}
- 
-@media screen and (max-width: 600px) {
-    .m-nav{
-        margin-right: -83%;
-    }
-}
-
-@media screen and (max-width: 570px) {
-    .m-nav{
-        margin-right: -82.6%;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .m-nav{
-        margin-right: -82.2%;
-    }
-}
-
-@media screen and (max-width: 510px) {
-    .m-nav{
-        margin-right: -81.8%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .m-nav{
-        margin-right: -81.4%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .m-nav{
-        margin-right: -80.3%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .m-nav{
-        margin-right: -80%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .m-nav{
-        margin-right: -79%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .m-nav{
-        margin-right: -78%;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .m-nav{
-        margin-right: -77%;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .m-nav{
-        margin-right: -75.5%;
-    }
-}
-
-@media screen and (max-width: 270px) {
-    .m-nav{
-        margin-right: -72.5%;
     }
 }

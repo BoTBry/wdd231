@@ -13,7 +13,7 @@
     --green-color: #2eff2e;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
     body{
         overflow-x: hidden;
     }
@@ -201,83 +201,3 @@
         justify-self: center;
     }
 }
-/* 
-@media screen and (max-width: 660px) {
-    .m-nav{
-        transform: translateX(93%);
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .m-nav{
-        transform: translateX(92%);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .m-nav{
-        transform: translateX(98%);
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .m-nav{
-        transform: translateX(87%);
-    }
-} */
-/* 
-@media screen and (max-width: 540px) {
-    .m-nav{
-        margin-right: -82.2%;
-    }
-}
-
-@media screen and (max-width: 510px) {
-    .m-nav{
-        margin-right: -81.8%;
-    }
-}
-
-
-
-@media screen and (max-width: 450px) {
-    .m-nav{
-        margin-right: -80.3%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .m-nav{
-        margin-right: -80%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .m-nav{
-        margin-right: -79%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .m-nav{
-        margin-right: -78%;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .m-nav{
-        margin-right: -77%;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .m-nav{
-        margin-right: -75.5%;
-    }
-}
-
-@media screen and (max-width: 270px) {
-    .m-nav{
-        margin-right: -72.5%;
-    }
-} */
