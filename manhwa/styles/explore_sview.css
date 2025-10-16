@@ -44,7 +44,7 @@
     }
 
     .active .m-nav{
-        transform: translateX(0);
+        transform: translateX(10%);
         transition: 0.8s ease-in-out;
     }
 
