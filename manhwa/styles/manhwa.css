@@ -16,7 +16,7 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-image: url(../images/IMG_20250516_214408.webp);
     background-size: cover;
     background-position: center;
