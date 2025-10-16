@@ -43,7 +43,7 @@
         align-content: center;
     }
 
-    .active{
+    .active .m-nav{
         margin-right: 0;
         transition: 0.8s ease-in-out;
     }
