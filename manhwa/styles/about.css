@@ -67,6 +67,8 @@ header{
 nav{
     justify-items: right;
     justify-content: right;
+    justify-self: right;
+    margin-right: var(--space-10px);
     align-items: center;
     align-content: center;
 }
