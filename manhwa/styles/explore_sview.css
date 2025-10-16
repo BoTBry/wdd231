@@ -13,7 +13,7 @@
     --green-color: #2eff2e;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     body{
         overflow-x: hidden;
     }
@@ -216,7 +216,7 @@
 
 @media screen and (max-width: 480px) {
     .m-nav{
-        transform: translateX(95%);
+        transform: translateX(98%);
     }
 }
 
