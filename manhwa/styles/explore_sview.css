@@ -43,6 +43,11 @@
         align-content: center;
     }
 
+    .active .m-nav{
+        margin-right: 0;
+        transition: 0.8s ease-in-out;
+    }
+
     .m-nav{
         display: grid;
         grid-template-columns: auto 1fr;
@@ -51,15 +56,8 @@
         justify-self: right;
         z-index: 10;
         position: fixed;
-        /* margin-right: -84.5%; */
-        transform: translateX(87%);
-        transition: transform 0.8s ease-in-out;
-    }
-
-    .active .m-nav{
-        margin-right: 0;
+        margin-right: -84.5%;
         transition: 0.8s ease-in-out;
-        transform: translateX(0);
     }
 
     #m-bar{
@@ -198,7 +196,7 @@
         justify-self: center;
     }
 }
-/* 
+
 @media screen and (max-width: 710px) {
     .m-nav{
         margin-right: -84.1%;
@@ -287,4 +285,4 @@
     .m-nav{
         margin-right: -72.5%;
     }
-} */
+}
