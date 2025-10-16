@@ -44,7 +44,7 @@
     }
 
     .active .m-nav{
-        margin-right: 0;
+        transform: translateX(0);
         transition: 0.8s ease-in-out;
     }
 
@@ -56,7 +56,8 @@
         justify-self: right;
         z-index: 10;
         position: fixed;
-        margin-right: -84.5%;
+        transform: translateX(94%);
+        transition: transform 0.8s ease-in-out;
         transition: 0.8s ease-in-out;
     }
 
@@ -199,36 +200,24 @@
     }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 660px) {
     .m-nav{
-        margin-right: -84.1%;
+        transform: translateX(93%);
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 560px) {
     .m-nav{
-        margin-right: -83.8%;
+        transform: translateX(92%);
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 380px) {
     .m-nav{
-        margin-right: -83.3%;
+        transform: translateX(87%);
     }
 }
- 
-@media screen and (max-width: 600px) {
-    .m-nav{
-        margin-right: -83%;
-    }
-}
-
-@media screen and (max-width: 570px) {
-    .m-nav{
-        margin-right: -82.6%;
-    }
-}
-
+/* 
 @media screen and (max-width: 540px) {
     .m-nav{
         margin-right: -82.2%;
@@ -287,4 +276,4 @@
     .m-nav{
         margin-right: -72.5%;
     }
-}
+} */
