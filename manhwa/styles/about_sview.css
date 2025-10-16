@@ -28,7 +28,7 @@
         align-content: center;
     }
 
-    .m-nav.active{
+    .active .m-nav{
         margin-right: 0;
         transition: 0.8s ease-in-out;
     }
@@ -77,7 +77,7 @@
         background-attachment: fixed;
     }
 
-    
+
     /************ Footer **************/
     footer{
         display: grid;
