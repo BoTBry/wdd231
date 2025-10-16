@@ -71,6 +71,7 @@ header{
 /******************** Navigation **********************/
 nav{
     justify-items: right;
+    justify-content: right;
     align-items: center;
     align-content: center;
 }
