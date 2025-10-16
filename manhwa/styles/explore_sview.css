@@ -201,7 +201,7 @@
         justify-self: center;
     }
 }
-
+/* 
 @media screen and (max-width: 660px) {
     .m-nav{
         transform: translateX(93%);
@@ -224,7 +224,7 @@
     .m-nav{
         transform: translateX(87%);
     }
-}
+} */
 /* 
 @media screen and (max-width: 540px) {
     .m-nav{
