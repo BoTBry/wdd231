@@ -24,6 +24,31 @@ body{
     background-attachment: fixed;
 }
 
+body h1{
+    font-family: 'Coming Soon', 'Courier New', Courier, sans-serif;
+}
+
+body h2{
+    font-family: 'BBH Sans Hegarty', 'Courier New', Courier, sans-serif;
+}
+
+body h3{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body p{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body a{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+
 *{
     color: #fff;
 }

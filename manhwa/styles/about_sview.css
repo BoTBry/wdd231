@@ -98,6 +98,8 @@
     #mail{
         text-align: center;
         justify-self: center;
+        justify-content: center;
+        justify-items: center;
     }
 
     .social_grid span:nth-child(1){

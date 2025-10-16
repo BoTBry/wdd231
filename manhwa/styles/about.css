@@ -23,6 +23,30 @@ body{
     background-color: var(--bck-clr);
 }
 
+body h1{
+    font-family: 'Coming Soon', 'Courier New', Courier, sans-serif;
+}
+
+body h2{
+    font-family: 'BBH Sans Hegarty', 'Courier New', Courier, sans-serif;
+}
+
+body h3{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body p{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body a{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
 
 /********************** Header *********************/
 header{
@@ -174,10 +198,11 @@ nav{
 .card h2{
     grid-row: 2/3;
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.08rem;
     text-align: center;
     margin: 0.5rem 0 0 0;
     padding: 0;
+    font-weight: 100;
 }
 
 .card p{
@@ -341,6 +366,8 @@ footer{
     margin: 0;
     text-align: right;
     justify-self: right;
+    justify-content: right;
+    justify-items: right;
 }
 
 #mail a{

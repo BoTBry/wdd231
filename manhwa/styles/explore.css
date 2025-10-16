@@ -23,6 +23,31 @@ body{
     background-color: var(--bck-clr);
 }
 
+body h1{
+    font-family: 'Coming Soon', 'Courier New', Courier, sans-serif;
+}
+
+body h2{
+    font-family: 'BBH Sans Hegarty', 'Courier New', Courier, sans-serif;
+    font-weight: 100;
+}
+
+body h3{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body p{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body a{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
+body{
+    font-family: 'Sanchez', 'Courier New', Courier, sans-serif;
+}
+
 
 /********************** Header *********************/
 header{
@@ -346,14 +371,6 @@ main{
     margin: auto 2px;
     justify-self: center;
     align-self: center;
-    /* display: inline;
-    justify-self: left;
-    align-self: center;
-    align-content: center;
-    align-items: center;
-    margin: auto 0;
-    width: 14px;
-    height: 14px; */
 }
 
 .rating_p{
@@ -361,10 +378,6 @@ main{
     margin: 0;
     display: inline;
     font-size: 0.9rem;
-    /* padding: 0;
-    display: inline;
-    margin: auto 0 auto 5px;
-    font-size: 0.9rem; */
 }
 
 .genre_section{
@@ -518,6 +531,8 @@ footer{
     margin: 0;
     text-align: right;
     justify-self: right;
+    justify-content: right;
+    justify-items: right;
 }
 
 #mail a{
