@@ -216,7 +216,7 @@
 
 @media screen and (max-width: 480px) {
     .m-nav{
-        transform: translateX(89%);
+        transform: translateX(95%);
     }
 }
 
