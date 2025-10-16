@@ -73,6 +73,10 @@ nav{
     align-content: center;
 }
 
+.m-nav{
+    display: none;
+}
+
 .navigation{
     display: flex;
     list-style: none;
@@ -281,7 +285,7 @@ main{
     grid-column: 1/2;
     display: inline;
     align-self: last baseline;
-    z-index: 10;
+    z-index: 9;
     box-shadow: 1px 1px 4px #b1b1b1;
     margin-left: var(--space-10px);
     width: 60px;

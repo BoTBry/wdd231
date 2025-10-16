@@ -78,6 +78,10 @@ nav{
     align-content: center;
 }
 
+.m-nav{
+    display: none;
+}
+
 .navigation{
     display: flex;
     list-style: none;
